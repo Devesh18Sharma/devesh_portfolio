@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Devesh Sharma Portfolio
 
-## Getting Started
+A modern, interactive portfolio website showcasing Devesh Sharma's skills, experience, and projects as a full-stack web developer.
 
-First, run the development server:
+![Portfolio Preview](public/images/preview.jpg)
 
+## 🌟 Features
+
+- **Interactive UI**: Smooth animations with Framer Motion and GSAP
+- **3D Effects**: Three.js-powered background and tilt effects
+- **Responsive Design**: Fully responsive for all device sizes
+- **Dark/Light Mode**: Seamless theme switching
+- **Contact Form**: MongoDB-powered contact form with validation
+- **Projects Showcase**: Dynamic project filtering and sorting
+- **SSR and SSG**: Next.js-powered performance optimizations
+- **API Routes**: Express.js backend for data handling
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js 15 with App Router
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- Three.js / React Three Fiber
+- Framer Motion
+- GSAP
+- Vanilla Tilt
+- React Countup
+- React Vertical Timeline
+
+### Backend
+- Express.js
+- Prisma ORM
+- MongoDB
+- Axios
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 20+
+- MongoDB (local or Atlas)
+
+### Installation
+
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/portfolio-devesh.git
+cd portfolio-devesh
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Set up environment variables
+```bash
+# Create a .env file with your MongoDB connection string
+cp .env.example .env
+# Then edit the .env file with your actual MongoDB connection string
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Initialize the database
+```bash
+npm run prisma:generate
+npm run prisma:push
+npm run prisma:seed # Optional: Seed the database with sample data
+```
 
-## Learn More
+5. Run the development server
+```bash
+# Run Next.js frontend only
+npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+# Run both frontend and Express backend
+npm run dev:full
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+6. Open [http://localhost:3000](http://localhost:3000) to view the site
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Project Structure
 
-## Deploy on Vercel
+```
+/portfolio-devesh
+├── /prisma              # Prisma schema and database config
+├── /public              # Static assets
+│   ├── /images          # Image assets
+│   └── /fonts           # Font files
+├── /src                 
+│   ├── /app             # Next.js app router
+│   │   ├── /api         # API routes
+│   │   └── /...         # Page routes
+│   ├── /components      # React components
+│   │   ├── /layout      # Layout components
+│   │   ├── /sections    # Page section components
+│   │   └── /ui          # Reusable UI components
+│   ├── /lib             # Utility functions and data
+│   ├── /server          # Express.js backend
+│   └── /types           # TypeScript type definitions
+└── /...                 # Config files
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧩 Key Components
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **HeroSection**: 3D particle background with text animation
+- **ProjectsSection**: Interactive project cards with tilt effect
+- **ExperienceSection**: Timeline-based experience display
+- **SkillsSection**: Animated skill categories
+- **ContactSection**: Form with validation and API integration
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- [Next.js](https://nextjs.org/)
+- [Three.js](https://threejs.org/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vercel](https://vercel.com/)
+
+---
+
+Created with ❤️ by Devesh Sharma
+# devesh_portfolio
