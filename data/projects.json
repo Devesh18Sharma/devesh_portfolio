@@ -1,0 +1,113 @@
+[
+  {
+    "id": "project-1743351821023",
+    "title": "Automate Hub",
+    "description": "B2C SaaS platform integrating Google Drive, Slack, and Notion, with real-time workflows increasing productivity by 45% and reducing management time by 50%.",
+    "techStack": [
+      "Next.js",
+      "MERN",
+      "TypeScript",
+      "Prisma",
+      "Uploadcare",
+      "Stripe",
+      "Clerk",
+      "Ngrok",
+      "Bun",
+      "Neon-Tech"
+    ],
+    "imageUrl": "/images/projects/automate_hub.png",
+    "liveDemo": "https://automate-hub-ltso-bw6u2er9e-devesh18sharmas-projects.vercel.app/",
+    "githubRepo": "https://github.com/Devesh18Sharma/Automate_Hub",
+    "featured": true,
+    "createdAt": "2023-12-01T00:00:00.000Z",
+    "updatedAt": "2024-02-15T00:00:00.000Z"
+  },
+  {
+    "id": "project-1743351821025",
+    "title": "Kadam Shoes",
+    "description": "E-commerce platform with Next.js and Stripe, achieving a 40% surge in sales conversions and enhancing user experience to drive significant digital revenue growth.",
+    "techStack": [
+      "React.js",
+      "Strapi",
+      "Stripe",
+      "Cloudinary",
+      "Redux",
+      "JavaScript",
+      "Tailwind CSS",
+      "Vercel",
+      "Render"
+    ],
+    "imageUrl": "/images/projects/kadam-shoes.png",
+    "liveDemo": "https://kadam-shoes.vercel.app/",
+    "githubRepo": "https://github.com/Devesh18Sharma/shoe-store-frontend",
+    "featured": true,
+    "createdAt": "2023-09-01T00:00:00.000Z",
+    "updatedAt": "2024-01-10T00:00:00.000Z"
+  },
+  {
+    "id": "project-1743351821025",
+    "title": "Connectify",
+    "description": "Secure, real-time P2P communication tool with video, messaging, and screen-sharing capabilities for seamless collaboration.",
+    "techStack": [
+      "WebRTC",
+      "Firebase",
+      "TypeScript",
+      "Next.js",
+      "Node.js"
+    ],
+    "imageUrl": "/images/projects/connectify.png",
+    "githubRepo": "https://github.com/Devesh18Sharma/Connectify",
+    "featured": false,
+    "createdAt": "2023-07-15T00:00:00.000Z",
+    "updatedAt": "2023-11-20T00:00:00.000Z"
+  },
+  {
+    "id": "project-1743351821025",
+    "title": "Fusion-Vault",
+    "description": "Collaborative platform for tech project showcases, integrating cloud storage and responsive UI for improved user experience.",
+    "techStack": [
+      "TypeScript",
+      "Next.js",
+      "React.js",
+      "GrafBase",
+      "Google Cloud",
+      "Cloudinary"
+    ],
+    "imageUrl": "/images/projects/Fusion-Vault.png",
+    "githubRepo": "https://github.com/Devesh18Sharma/FusionVault",
+    "featured": false,
+    "createdAt": "2023-05-10T00:00:00.000Z",
+    "updatedAt": "2023-09-05T00:00:00.000Z"
+  },
+  {
+    "id": "project-1743351821025",
+    "title": "Real-Time Chat App",
+    "description": "Real-time chat application with chat rooms and secure data handling using Socket.IO for seamless communication.",
+    "techStack": [
+      "React",
+      "Node.js",
+      "Express",
+      "Socket.IO"
+    ],
+    "imageUrl": "/images/projects/chat_app.png",
+    "liveDemo": "https://frontend-real-time-app.vercel.app/",
+    "featured": false,
+    "createdAt": "2023-04-01T00:00:00.000Z",
+    "updatedAt": "2023-06-15T00:00:00.000Z"
+  },
+  {
+    "id": "project-1743351821025",
+    "title": "Meme Creator App",
+    "description": "Simple, user-friendly meme generation tool allowing users to create custom memes with various templates.",
+    "techStack": [
+      "React.js",
+      "HTML",
+      "CSS"
+    ],
+    "imageUrl": "/images/projects/meme-creator.png",
+    "liveDemo": "https://meme-creator-app-m6pb.vercel.app/",
+    "featured": false,
+    "createdAt": "2023-02-20T00:00:00.000Z",
+    "updatedAt": "2023-03-10T00:00:00.000Z"
+  }
+]
